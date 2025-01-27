@@ -20,10 +20,10 @@ const Header = () => {
             <Link to="/about">{t("About")}</Link> 
           </li>
           <li>
-          <button onClick={()=>changeLanguage("fi")}>FI</button>
+          <button id="fi" onClick={()=>changeLanguage("fi")}>FI</button>
           </li>
           <li>
-          <button onClick={()=>changeLanguage("en")}>EN</button>
+          <button id="en" onClick={()=>changeLanguage("en")}>EN</button>
           </li>
         </ul>
       </nav>
